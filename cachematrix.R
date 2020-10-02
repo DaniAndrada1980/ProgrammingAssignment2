@@ -6,8 +6,7 @@
 ##a "i" se le asigna un valor "NULL" para que luego adopte el valor inverso de "x"
 ## (si existiera el valor inverso de "x")
 ## luego se establecen los parametros para convertir "x" a su inversa "i"
-##y luego para finalizar a travez de la funcion "cacheSolve" 
-## se obtiene o se calcula la inversa y se obtiene el resultado de "i"
+
 
 makeCacheMatrix <- function(x = matrix()) {
  i <- NULL
@@ -23,6 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
   getInverse = getInverse)
 }
 
+## luego para finalizar a travez de la funcion "cacheSolve" 
+## se obtiene o se calcula la inversa y se obtiene el resultado de "i"
 
 cacheSolve <- function(x, ...) {
   i <- x$getInverse()
